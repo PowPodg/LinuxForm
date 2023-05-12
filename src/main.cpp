@@ -16,10 +16,9 @@ int main() {
 	name_menu_file1->add_name_sub_menu("Com Port", NULL, NULL);
 
 	T_Tab* tab_cntr = lin_form->add_tab();
+	
 	Page_Tab* page = tab_cntr->add_page("Page1", 50, 50);
-
 	page->color = clAquan; 
-
 	page->add_button("test button2", 50, 300, NULL, NULL);
 
 	Page_Tab* page1 = tab_cntr->add_page("Page2", 50, 50);
